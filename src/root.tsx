@@ -1,7 +1,8 @@
 // @refresh reload
+import { Component } from "solid-js";
 import { Links, Meta, Outlet, Scripts } from "solid-start/components";
 
-export default function Root({ Start }) {
+export default function Root({ Start }: { Start: Component }) {
   return (
     <Start>
       <html lang="en">
